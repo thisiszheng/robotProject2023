@@ -66,6 +66,8 @@ dependencies {
     simulationRelease wpi.sim.enableRelease()
 
     testImplementation 'junit:junit:4.13.1'
+
+    implementation 'com.github.StuyPulse:StuyLib:v2023.1.1'
 }
 
 // Simulation configuration (e.g. environment variables).
@@ -92,7 +94,3 @@ allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
-
-	dependencies {
-		implementation 'com.github.User:Repo:Tag'
-	}
